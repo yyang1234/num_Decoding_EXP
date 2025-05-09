@@ -1,0 +1,62 @@
+{
+  "onset": {
+    "Description": "time elapsed since experiment start",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "types of trial",
+    "Levels": {
+    }
+  },
+  "duration": {
+    "Description": "duration of the event or the block",
+    "Units": "s"
+  },
+  "StimulusPresentation": {
+    "OperatingSystem": "MACI64",
+    "SoftwareRRID": "SCR_002881",
+    "Code": "",
+    "SoftwareVersion": "3.0.18",
+    "SoftwareName": "Psychtoolbox on Matlab - 9.12.0.2529717 (R2022a) Update 8"
+  },
+  "stim_name": {
+    "Description": "",
+    "Levels": {
+    },
+    "LongName": "",
+    "TermURL": "https://www.TODO.later",
+    "Units": ""
+  },
+  "target": {
+    "Description": "",
+    "Levels": {
+    },
+    "LongName": "",
+    "TermURL": "https://www.TODO.later",
+    "Units": ""
+  },
+  "event": {
+    "Description": "",
+    "Levels": {
+    },
+    "LongName": "",
+    "TermURL": "https://www.TODO.later",
+    "Units": ""
+  },
+  "block": {
+    "Description": "",
+    "Levels": {
+    },
+    "LongName": "",
+    "TermURL": "https://www.TODO.later",
+    "Units": ""
+  },
+  "keyName": {
+    "Description": "",
+    "Levels": {
+    },
+    "LongName": "",
+    "TermURL": "https://www.TODO.later",
+    "Units": ""
+  }
+}

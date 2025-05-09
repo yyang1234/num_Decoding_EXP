@@ -1,0 +1,292 @@
+{
+  "Instructions": "",
+  "RepetitionTime": 1.75,
+  "SliceTiming": [0,0.875,0.0673077,0.942308,0.134615,1.00962,0.201923,1.07692,0.269231,1.14423,0.336538,1.21154,0.403846,1.27885,0.471154,1.34615,0.538462,1.41346,0.605769,1.48077,0.673077,1.54808,0.740385,1.68269,0.807692,1.61538,0,0.875,0.0673077,0.942308,0.134615,1.00962,0.201923,1.07692,0.269231,1.14423,0.336538,1.21154,0.403846,1.27885,0.471154,1.34615,0.538462,1.41346,0.605769,1.48077,0.673077,1.54808,0.740385,1.68269,0.807692,1.61538],
+  "TaskDescription": "",
+  "TaskName": "numMVPA",
+  "StimulusPresentation": {
+    "OperatingSystem": "MACI64",
+    "SoftwareRRID": "SCR_002881",
+    "Code": "",
+    "SoftwareVersion": "3.0.18",
+    "SoftwareName": "Psychtoolbox on Matlab - 9.12.0.2529717 (R2022a) Update 8"
+  },
+  "aperture": {
+    "type": "none"
+  },
+  "audio": {
+    "channels": 1,
+    "devIdx": [],
+    "do": true,
+    "fs": 44100,
+    "initVolume": 1,
+    "inputChannels": 1,
+    "playbackMode": 1,
+    "pushSize": 441,
+    "repeat": 1,
+    "reqsSampleOffset": 44100,
+    "requestOffsetTime": 1,
+    "requestedLatency": 3,
+    "startCue": 0,
+    "waitForDevice": 1,
+    "pahandle": 0
+  },
+  "bids": {
+    "MRI": {
+      "Instructions": "Detect the repeated stimulus",
+      "TaskDescription": []
+    },
+    "beh": {
+      "Instructions": [],
+      "TaskName": "numMVPA"
+    },
+    "datasetDescription": {
+      "Acknowledgements": "",
+      "Authors": [""],
+      "BIDSVersion": "",
+      "DatasetDOI": "",
+      "Funding": [""],
+      "HowToAcknowledge": "",
+      "License": "",
+      "Name": "",
+      "ReferencesAndLinks": [""]
+    },
+    "eeg": {
+      "EEGReference": "",
+      "Instructions": "",
+      "PowerLineFrequency": 50,
+      "SamplingFrequency": [],
+      "SoftwareFilters": "n/a",
+      "TaskName": "numMVPA"
+    },
+    "ieeg": {
+      "Instructions": "",
+      "PowerLineFrequency": 50,
+      "SamplingFrequency": [],
+      "SoftwareFilters": "n/a",
+      "TaskName": "numMVPA",
+      "iEEGReference": ""
+    },
+    "meg": {
+      "DewarPosition": [],
+      "DigitizedHeadPoints": [],
+      "DigitizedLandmarks": [],
+      "Instructions": "",
+      "PowerLineFrequency": 50,
+      "SamplingFrequency": [],
+      "SoftwareFilters": "n/a",
+      "TaskName": "numMVPA"
+    },
+    "mri": {
+      "Instructions": "",
+      "RepetitionTime": 1.75,
+      "SliceTiming": [0,0.875,0.0673077,0.942308,0.134615,1.00962,0.201923,1.07692,0.269231,1.14423,0.336538,1.21154,0.403846,1.27885,0.471154,1.34615,0.538462,1.41346,0.605769,1.48077,0.673077,1.54808,0.740385,1.68269,0.807692,1.61538,0,0.875,0.0673077,0.942308,0.134615,1.00962,0.201923,1.07692,0.269231,1.14423,0.336538,1.21154,0.403846,1.27885,0.471154,1.34615,0.538462,1.41346,0.605769,1.48077,0.673077,1.54808,0.740385,1.68269,0.807692,1.61538],
+      "TaskDescription": "",
+      "TaskName": "numMVPA"
+    }
+  },
+  "color": {
+    "background": [0,0,0],
+    "black": [0,0,0],
+    "green": [0,255,0],
+    "grey": [127.5,127.5,127.5],
+    "red": [255,0,0],
+    "white": [255,255,255]
+  },
+  "debug": {
+    "do": false,
+    "showMouse": true,
+    "smallWin": false,
+    "transpWin": false
+  },
+  "design": {
+    "localizer": "VWFA",
+    "names": ["numerosity"],
+    "nbRepetitions": 2,
+    "nbEventsPerBlock": 20,
+    "vis_sim_count": [[2,2,2,2],[2,2,2,2]],
+    "vis_seq_count": [[2,2,2,2],[2,2,2,2]],
+    "aud_seq_count": [[2,2,2,2],[2,2,2,2]],
+    "blockNames": [
+      "numerosity",
+      "numerosity"
+    ],
+    "nbBlocks": 2,
+    "repetitionTargets": [[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0],[0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0]],
+    "lengthBlock": 22,
+    "presMatrix": [[18,5,3,12,15,8,13,19,4,8,10,16,6,1,11,17,7,2,20,9,1,14,0],[6,11,13,18,6,4,15,5,12,19,1,16,10,20,3,8,20,9,2,17,7,14,0]],
+    "targetMatrix": [[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0]],
+    "isiMatrix": [[4,3.5,4.5,4,3.5,3.5,4.5,4.5,3.5,4,4.5,3.5,3.5,3.5,3.5,4.5,3.5,4.5,4,4,4,3.5,4.5],[3.5,4.5,3.5,4,4,4.5,3.5,4,4,4.5,4,4,4,4,3.5,4,4.5,4.5,4.5,4,4.5,4.5,3.5]],
+    "typeMatrix": [[1,1,2,2,2,2,1,2,2,2,1,2,1,1,2,1,2,1,2,1,1,1,0],[2,1,2,2,2,1,1,2,1,1,2,1,2,1,1,1,1,2,2,2,1,2,0]]
+  },
+  "dir": {
+    "output": "/Users/yiyang/DATA/4upload/run_exp/num_Decoding_EXP/subfun/output",
+    "outputSubject": "/Users/yiyang/DATA/4upload/run_exp/num_Decoding_EXP/subfun/output/source/sub-001/ses-001"
+  },
+  "dots": {
+    "SizePix": 60,
+    "color": [255,255,255]
+  },
+  "extraColumns": [
+    "stim_name",
+    "target",
+    "event",
+    "block",
+    "keyName"
+  ],
+  "eyeTracker": {
+    "AverageCalibrationError": [],
+    "CalibrationDistance": "",
+    "CalibrationPosition": "",
+    "CalibrationType": "HV5",
+    "Manufacturer": "",
+    "ManufacturersModelName": "",
+    "MaximalCalibrationError": [],
+    "PupilPositionType": "",
+    "RawDataFilters": [],
+    "RawSamples": [],
+    "SamplingFrequency": [],
+    "SoftwareVersions": "",
+    "do": false
+  },
+  "fileName": {
+    "base": "sub-001_ses-001_task-numMVPA",
+    "datasetDescription": "/Users/yiyang/DATA/4upload/run_exp/num_Decoding_EXP/subfun/output/dataset_description.json",
+    "date": "202505091221",
+    "dateFormat": "yyyymmddHHMM",
+    "events": "sub-001_ses-001_task-numMVPA_run-001_date-202505091221_events.tsv",
+    "modality": "func",
+    "pattern": "%03.0f",
+    "stim": "sub-001_ses-001_task-numMVPA_run-001_date-202505091221_stim.tsv",
+    "task": "numMVPA",
+    "zeroPadding": 3
+  },
+  "filename": {
+    "entities": {
+      "acq": "",
+      "ce": "",
+      "dir": "",
+      "echo": "",
+      "rec": "",
+      "recording": "",
+      "run": "001"
+    }
+  },
+  "fixation": {
+    "color": [0,255,0],
+    "lineWidthPix": 2,
+    "type": "cross",
+    "width": 0.3,
+    "xDisplacement": 0,
+    "yDisplacement": 0,
+    "widthPix": 19.54953769506021,
+    "xDisplacementPix": 0,
+    "yDisplacementPix": 0,
+    "xCoords": [-9.774768847530106,9.774768847530106,0,0],
+    "yCoords": [0,0,-9.774768847530106,9.774768847530106],
+    "allCoords": [[-9.774768847530106,9.774768847530106,0,0],[0,0,-9.774768847530106,9.774768847530106]]
+  },
+  "hideCursor": true,
+  "keyboard": {
+    "escapeKey": "ESCAPE",
+    "keyboard": [],
+    "responseBox": [],
+    "responseKey": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "mri": {
+    "triggerKey": "s",
+    "triggerNb": 1,
+    "repetitionTime": 1.75
+  },
+  "offset": [],
+  "onset": [],
+  "pacedByTriggers": {
+    "do": false
+  },
+  "screen": {
+    "monitorDistance": 170,
+    "monitorWidth": 69.8,
+    "resolution": [[],[],[]],
+    "idx": 0,
+    "oldResolution": {
+      "width": 3024,
+      "height": 1964,
+      "pixelSize": 24,
+      "hz": 120
+    },
+    "win": 10,
+    "winRect": [0,0,1512,982],
+    "winWidth": 1512,
+    "winHeight": 982,
+    "center": [756,491],
+    "FOV": 23.20259471479041,
+    "ppd": 65.16512565020071,
+    "ifi": 0.008162899385774282,
+    "monitorRefresh": 122.5054913383753
+  },
+  "skipSyncTests": 1,
+  "subject": {
+    "ask": [
+      "grp",
+      "ses",
+      "run"
+    ],
+    "runNb": 1,
+    "sessionNb": 1,
+    "subjectGrp": "",
+    "subjectNb": 1
+  },
+  "suffix": {
+    "acq": [],
+    "acquisition": "0p75mmEv",
+    "ce": [],
+    "dir": [],
+    "echo": [],
+    "rec": [],
+    "recording": []
+  },
+  "target": {
+    "maxNbPerBlock": 3,
+    "duration": 0.1,
+    "type": "repetition"
+  },
+  "task": {
+    "arabicfontSize": [90,110,130,150],
+    "arabicLocationA": -50,
+    "arabicLocationB": 50,
+    "name": "numMVPA",
+    "instruction": "Detect the repeated numerosity regardless of format and modality"
+  },
+  "testingDevice": "mri",
+  "text": {
+    "color": [255,255,255],
+    "font": "Courier New",
+    "size": 18,
+    "style": 1
+  },
+  "timing": {
+    "eventDuration": 1.25,
+    "IBI": 15,
+    "ISI": [3.5,4,4.5],
+    "firstfixation": 4,
+    "onsetDelay": 0,
+    "endDelay": 3.6,
+    "energy": 1.32,
+    "ttpause": 0.68,
+    "desired_duration": [0.2,0.15],
+    "dotsISI": 0.125,
+    "sumdur": 1600,
+    "min": 100,
+    "max": 1000,
+    "type1MinDur": [0.127,0.178,0.27,0.48],
+    "arabicDuration": 1
+  },
+  "useGUI": false,
+  "verbose": 1,
+  "experimentStart": 1089794.310117166
+}
