@@ -2,7 +2,6 @@
 
 # exclude content of logfiles folders
 *.tsv
-*.mat
 
 ## virtual env
 env/*
