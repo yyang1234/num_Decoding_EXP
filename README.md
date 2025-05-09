@@ -4,7 +4,7 @@ Run
 
 How to install
 ```bash
-git git clone --recurse-submodules https://github.com/yyang1234/num_Decoding_EXP.git
+git clone --recurse-submodules https://github.com/yyang1234/num_Decoding_EXP.git
 ```
 
 - To run the experiment run `run_num_decoding_exp.m`
